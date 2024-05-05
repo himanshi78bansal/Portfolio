@@ -1,0 +1,52 @@
+main font
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+css
+font-family: 'Kalam', cursive;
+
+
+/* html for horror*/
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+/* css */
+font-family: 'Rubik Burned', system-ui;
+
+
+html for dancing
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+Meetei+Mayek:wght@200&family=Rubik+Burned&display=swap" rel="stylesheet">
+css
+font-family: 'Dancing Script', cursive;
+font-family: 'Noto Sans Meetei Mayek', sans-serif;
+font-family: 'Rubik Burned', system-ui;
+
+html for funky
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+Meetei+Mayek:wght@200&family=Rubik+Burned&family=Single+Day&display=swap" rel="stylesheet">
+css
+font-family: 'Dancing Script', cursive;
+font-family: 'Noto Sans Meetei Mayek', sans-serif;
+font-family: 'Rubik Burned', system-ui;
+font-family: 'Single Day', cursive;
+
+
+
+
+
+
+
+
+
+<a href="#"><i class="fa-solid fa-house"></i>home</a>
+                <a href="#"><i class="fa-solid fa-address-card"></i>about</a>
+                <a href="#"><i class="fa-solid fa-square-poll-vertical"></i>Skills</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>Contact Me</a>
+                <a href="#"><i class="fa-solid fa-laptop-code"></i></i>projects</a>
+                <a href="#"><i class="fa-solid fa-book-open-reader"></i>educaion</a>
+                <a href="#"><i class="fa-solid fa-briefcase"></i>experience</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i>location</a>
+                <a href="#"><i class="fa-solid fa-toggle-off"></i>Button</a>
