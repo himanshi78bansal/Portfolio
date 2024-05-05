@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="navbar">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img class="logo" src="/pic/logo.png"
+                            /></a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><i class="fa-solid fa-house"></i>
+                                <p class="text">Home</p></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#Experience"
+                                ><i class="fa-solid fa-briefcase"></i>
+                                <p class="text">Experience</p></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#projects"
+                                ><i class="fa-solid fa-laptop-code"></i>
+                                <p class="text">Projects</p></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#skills"
+                                ><i
+                                    class="fa-solid fa-square-poll-vertical"
+                                ></i>
+                                <p class="text">Skills</p></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#Contact"
+                                ><i class="fa-solid fa-envelope"></i>
+                                <p class="text">Contact Me</p></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar2">
+                    <button onclick="myFunction()">
+                        <i id="moon" class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+                <hr />
+            </header>
+
+            <section id="Home">
+                <div class="home">
+                    <div class="detail">
+                        <p class="name">Hi, my name is</p>
+                        <p id="my" class="name">Himanshi Bansal</p>
+                        <p>
+                            I have built many industry grade projects from
+                            scratch and am armed with many technological skills
+                            useful for tech projects. Check out my projects
+                            below. :)
+                        </p>
+                        <div class="Description">
+                            <button
+                                onclick="window.location.href='#skills';"
+                                formtarget="_blank"
+                                class="summary one"
+                            >
+                                <p class="digits">10+</p>
+                                <p>skills</p>
+                            </button>
+                            <button
+                                onclick="javascript:window.open('https://github.com/Himanshi7Bansal', '_blank');"
+                                class="summary two"
+                            >
+                                <p class="digits">12+</p>
+                                <p>projects</p>
+                            </button>
+                            <button
+                                onclick="javascript:window.open('https://leetcode.com/u/hbnsl78/', '_blank');"
+                                class="summary three"
+                            >
+                                <p class="digits">250+</p>
+                                <p>DSA Problems solved</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mypic">
+                        <img src="./pic/main.jpg" id="aboutMe" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="About">
+                <div id="myNav4" class="overlay">
+                    <a
+                        href="javascript:void(0)"
+                        class="closebtn"
+                        onclick="closeNav()"
+                        >&larr;</a
+                    >
+                    <div id="about" class="overlay-content">
+                        <div><img src = "./pic/about.jpg" id = "image"</div>
+                        <div id="detail">
+                            <p>
+                                Himanshi Bansal, 24. I am not the most talkative
+                                girl, and prefer my work to do the talk. You can
+                                check my portfolio here.<br />
+                                I have a lot of enthusiasm for life and am
+                                always looking for new opportunities to learn
+                                and grow. I'm flexible and can adapt to new
+                                situations and changes quickly and easily. I
+                                have a friendly personality and enjoy
+                                interacting with others.<br />
+                                Except of my work, which is my greatest passion,
+                                I enjoy playing Badminton. Honestly I think it
+                                is important to balance the long hours we spend
+                                in front of a computer screen with some physical
+                                activity, and that’s exactly what I do in my
+                                leisure time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Experience">
+                <div class="exHead">
+                    <div class="title">Experiences</div>
+                    <div class="line">1</div>
+                </div>
+                <div class="experience">
+                    <div class="jobs first">
+                        <div class="Exdetail">
+                            <h4>ICT Academy Open Weaver</h4>
+                            <p class="desg">
+                                FULL STACK INTERN (Aug 2023 - Sep 2023)
+                            </p>
+                            <p>
+                                I Worked on 8 Prebuild Projects using JAVA and
+                                JavaScript Programming Language and also made a
+                                Capstone Project (online tutor finder website)
+                                using Open Weaver Studio.
+                            </p>
+                            <p>During this Internsip I got :-</p>
+                            <ul>
+                                <li>3 badges</li>
+                                <li>Completion Certificate</li>
+                                <li>Bundle of learning</li>
+                            </ul>
+                            <div class="techBox">
+                                <div class="tech">
+                                    <p>Java</p>
+                                </div>
+                                <div class="tech">
+                                    <p>javaScript</p>
+                                </div>
+                                <div class="tech">
+                                    <p>OpenWeaver Platform</p>
+                                </div>
+                            </div>
+                            <button class="btn" id="ICT">
+                                view certificate
+                            </button>
+                            <div id="myNav5" class="overlay">
+                                <a
+                                    href="javascript:void(0)"
+                                    class="closebtn"
+                                    onclick="closeNav()"
+                                    >&larr;</a
+                                >
+                                <div id="about" class="overlay-content">
+                                    <div>
+                                        <img
+                                            src="./experience picc/ict1.jpg"
+                                            id="view"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificates">
+                            <img
+                                src="./experience picc/ict.jpg"
+                                alt="certificate"
+                            />
+                        </div>
+                    </div>
+                    <div class="jobs second">
+                        <div class="Exdetail">
+                            <h4>Slytherin EdTech Pvt. Ltd.</h4>
+                            <p class="desg">
+                                WEB DEVELOPMENT INTERN (July 2023 - Sep 2023)
+                            </p>
+                            <ul>
+                                <li>
+                                    Learn to create LOGIN FORM using HTML, CSS,
+                                    send Email via form.
+                                </li>
+                                <li>
+                                    Apply CRUD operations to Database using SQL
+                                    and XAMPP server.
+                                </li>
+                                <li>
+                                    Build a landing page of a website and submit
+                                    it on Trello.
+                                </li>
+                            </ul>
+                            <div class="techBox">
+                                <div class="tech">
+                                    <p>HTML</p>
+                                </div>
+                                <div class="tech">
+                                    <p>CSS</p>
+                                </div>
+                                <div class="tech">
+                                    <p>javaScript</p>
+                                </div>
+                                <div class="tech">
+                                    <p>Linkedin</p>
+                                </div>
+                                <div class="tech">
+                                    <p>Trello</p>
+                                </div>
+                            </div>
+                            <button class="btn" id="sly">
+                                view certificate
+                            </button>
+                            <div id="myNav6" class="overlay">
+                                <a
+                                    href="javascript:void(0)"
+                                    class="closebtn"
+                                    onclick="closeNav()"
+                                    >&larr;</a
+                                >
+                                <div id="about" class="overlay-content">
+                                    <div>
+                                        <img
+                                            src="./experience picc/slytherin1.jpg"
+                                            id="view"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificates">
+                            <img
+                                src="./experience picc/slytherin.png"
+                                alt="certificate"
+                            />
+                        </div>
+                    </div>
+                    <div class="jobs third">
+                        <div class="Exdetail">
+                            <h4>InternDev</h4>
+                            <p class="desg">
+                                JAVA DEVELOPER INTERN (June 2023)
+                            </p>
+                            <p>
+                                Made 3 Projects using JAVA Programming Language
+                            </p>
+                            <ul>
+                                <li>Calculator</li>
+                                <li>Number Guessing Game</li>
+                                <li>
+                                    Student Records keeping with grade
+                                    calculation.
+                                </li>
+                            </ul>
+                            <div class="techBox">
+                                <div class="tech">
+                                    <p>Java</p>
+                                </div>
+                                <div class="tech">
+                                    <p>Linkedin</p>
+                                </div>
+                                <div class="tech">
+                                    <p>GitHub</p>
+                                </div>
+                            </div>
+                            <button class="btn" id="intern">
+                                view certificate
+                            </button>
+                            <div id="myNav7" class="overlay">
+                                <a
+                                    href="javascript:void(0)"
+                                    class="closebtn"
+                                    onclick="closeNav()"
+                                    >&larr;</a
+                                >
+                                <div id="about" class="overlay-content">
+                                    <div>
+                                        <img
+                                            src="./experience picc/interndev1.jpg"
+                                            id="view"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificates">
+                            <img
+                                src="./experience picc/interndev.jpg"
+                                alt="certificate"
+                            />
+                        </div>
+                    </div>
+                    <div class="jobs fourth">
+                        <div class="Exdetail">
+                            <h4>Axis Bank Limited</h4>
+                            <p class="desg">
+                                Business Development Executive(306200) (June
+                                2021 – Nov 2021)
+                            </p>
+                            <ul>
+                                <li>Successfully added 90+ new customers.</li>
+                                <li>Got promotion mail as a Sales Officer</li>
+                            </ul>
+                            <div class="techBox">
+                                <div class="tech">
+                                    <p>Sales</p>
+                                </div>
+                                <div class="tech">
+                                    <p>Piching</p>
+                                </div>
+                                <div class="tech">
+                                    <p>Cold Calling</p>
+                                </div>
+                                <div class="tech">
+                                    <p>CRM</p>
+                                </div>
+                                <div class="tech">
+                                    <p>Lead Generation</p>
+                                </div>
+                            </div>
+                            <button class="btn" id="axis">
+                                view certificate
+                            </button>
+                            <div id="myNav8" class="overlay">
+                                <a
+                                    href="javascript:void(0)"
+                                    class="closebtn"
+                                    onclick="closeNav()"
+                                    >&larr;</a
+                                >
+                                <div id="about" class="overlay-content">
+                                    <div>
+                                        <img
+                                            src="./experience picc/axis1.jpg"
+                                            id="view"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificates">
+                            <img
+                                src="./experience picc/axis.jpg"
+                                alt="certificate"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <div class="exHead">
+                    <div class="title">Projects</div>
+                    <div class="line">1</div>
+                </div>
+                <div class="front">
+                    <div>
+                        <img src="./project piccs/html/html.jpg" id="one" />
+                    </div>
+                    <div>
+                        <img src="./project piccs/java/java.png" id="two" />
+                    </div>
+                    <div>
+                        <img
+                            src="./project piccs/flutter/flutter.png"
+                            id="three"
+                        />
+                    </div>
+                </div>
+                <div id="myNav1" class="overlay">
+                    <a
+                        href="javascript:void(0)"
+                        class="closebtn"
+                        onclick="closeNav()"
+                        >&larr;</a
+                    >
+                    <div class="overlay-content">
+                        <div>
+                            <div class="curr">
+                                <a
+                                    href="https://himanshi7bansal.github.io/currencyConvertor/"
+                                    ><img src="./project piccs/html/curr.jpg"
+                                /></a>
+                                <figcaption>Currency Convertor</figcaption>
+                            </div>
+                            <div class="bmi">
+                                <a
+                                    href="https://himanshi7bansal.github.io/BMI-Calculator/"
+                                >
+                                    <img src="./project piccs/html/bmi.jpg" />
+                                </a>
+                                <figcaption>BMI Calculator</figcaption>
+                            </div>
+                            <div class="drum">
+                                <a
+                                    href="https://himanshi7bansal.github.io/Drum-Kit/"
+                                >
+                                    <img src="./project piccs/html/drum.jpg" />
+                                </a>
+                                <figcaption>Drum-Kit</figcaption>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="simon">
+                                <a
+                                    href="https://himanshi7bansal.github.io/Drum-Kit/"
+                                >
+                                    <img src="./project piccs/html/simon.jpg" />
+                                </a>
+                                <figcaption>Simon Game</figcaption>
+                            </div>
+                            <div class="dice">
+                                <a
+                                    href="https://himanshi7bansal.github.io/Dice-Challenge/"
+                                >
+                                    <img src="./project piccs/html/dice.jpg" />
+                                </a>
+                                <figcaption>Dice Game</figcaption>
+                            </div>
+                            <div class="website">
+                                <a
+                                    href="https://himanshi7bansal.github.io/New-Portfolio/"
+                                >
+                                    <img
+                                        src="./project piccs/html/website.jpg"
+                                    />
+                                </a>
+                                <figcaption>Website</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="java"> -->
+                <div id="myNav2" class="overlay">
+                    <a
+                        href="javascript:void(0)"
+                        class="closebtn"
+                        onclick="closeNav()"
+                        >&larr;</a
+                    >
+
+                    <div class="overlay-content">
+                        <div class="content">
+                            <div class="atm">
+                                <img src="./project piccs/java/atm.jpg" />
+                                <figcaption>ATM</figcaption>
+                            </div>
+                            <div class="cal">
+                                <img src="./project piccs/java/cal.jpg" />
+                                <figcaption>Scientific Calculator</figcaption>
+                            </div>
+                            <div class="sudoku">
+                                <img src="./project piccs/java/sudoku.jpg" />
+                                <figcaption>Sudoku Solver</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="flutter">  -->
+                <div id="myNav3" class="overlay">
+                    <a
+                        href="javascript:void(0)"
+                        class="closebtn"
+                        onclick="closeNav()"
+                        >&larr;</a
+                    >
+                    <div class="overlay-content">
+                        <div class="flutter">
+                            <div class="foody">
+                                <img src="./project piccs/flutter/foody.jpg" />
+                                <figcaption>Moody-Foody</figcaption>
+                            </div>
+                            <div class="intro">
+                                <img src="./project piccs/flutter/intro.jpg" />
+                                <figcaption>Intro</figcaption>
+                            </div>
+                            <div class="real">
+                                <img src="./project piccs/flutter/real.jpg" />
+                                <figcaption>Real time App</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="exHead">
+                    <div class="title">Skills</div>
+                    <div class="line">1</div>
+                </div>
+                <div class="graph">
+                    <div class="chart1">
+                        <canvas id="myChart1"></canvas>
+                    </div>
+                    <div class="chart2">
+                        <div class="details">
+                            <p id="chart">
+                                Every job requires a combination of HARD and
+                                SOFT skills. <big>Hard Skills</big> refer to
+                                technical skills, indicate the proficient,
+                                specialized knowledge in the practical aspects.
+                                <big>Soft skills</big>, on the other hand, refer
+                                to workplace skills that represents the
+                                contribution to a positive and productive work
+                                environment.
+                            </p>
+                        </div>
+                        <canvas id="myChart2"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Contact">
+                <div class="exHead">
+                    <div class="title">Contacts</div>
+                    <div class="line">1</div>
+                </div>
+                <div class="contact">
+                    <div class="info">
+                        <p>Ph No - +91 7497035925</p>
+                        <p>Mail - hbnsl78@gmail.com</p>
+                        <p>
+                            Linkedin -
+                            <a
+                                href="https://www.linkedin.com/in/himanshi-bansal-495196222/"
+                            >
+                                Himanshi Bansal</a
+                            >
+                        </p>
+                        <p>
+                            GitHub -
+                            <a href="https://github.com/Himanshi7Bansal"
+                                >Himanshi7Bansal</a
+                            >
+                        </p>
+                        <p>
+                            leetCode -
+                            <a href="https://leetcode.com/hbnsl78">hbnsl78</a>
+                        </p>
+                    </div>
+                    <div class="map">
+                        <iframe
+                            class="location"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d670.5144982121615!2d77.76522472292035!3d30.008295880848962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ec91192f79d3f%3A0x62053abe850f80b2!2sQuantum%20Girl&#39;s%20Hostel!5e1!3m2!1sen!2sin!4v1706615412960!5m2!1sen!2sin"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <footer></footer>
+        </div>
+
+        <!-- js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        <script src="./js/chart.js"></script>
+        <script src="./js/jquery.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
+
+<section id="About"></section>
