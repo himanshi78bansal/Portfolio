@@ -1,2 +1,5 @@
 # Portfolio
-All about me
+Hi, I'm uploading my Portfolio...
+To build this portfolio I use basic web development language HTML, CSS, javaScript
+I took references from w3School and stackOverflow
+Plz let me know if there should be any improvement required. I'll happy to update....
