@@ -294,8 +294,12 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    /* display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr; */
     gap: 30px;
     padding: 20px;
+    padding-left: 4%;
     margin: 20px;
     margin-bottom: 90px;
 }
@@ -332,14 +336,15 @@ h4 {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    color: var(--main-bg-color);
+    color: white;
 }
 .overlay-content div div {
     flex-direction: column;
     gap: 5px;
-    /* border: 1px solid var(--second-bg-color); */
+    border: 1px solid var(--second-bg-color);
     border-radius: 20px;
     background-color: var(--second-bg-color);
+    margin: 10px;
 }
 .overlay-content img {
     width: 200px;
@@ -349,10 +354,6 @@ h4 {
 .overlay-content img:hover {
     opacity: 40%;
 }
-/* figcaption{
-    position: absolute;
-    top: 50%;
-} */
 .flutter img {
     top: 0%;
     margin-top: 0px;

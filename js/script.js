@@ -27,8 +27,11 @@ $("#two").click(() => {
 $("#three").click(() => {
     $("#myNav3").css("height", "90%");
 });
+$("#four").click(() => {
+    $("#myNav9").css("height", "90%");
+});
 $(".closebtn").hover(() => {
-    $("#myNav1, #myNav2, #myNav3, #myNav4, #myNav5, #myNav6, #myNav7, #myNav8").css("height", "0%");
+    $("#myNav1, #myNav2, #myNav3, #myNav4, #myNav5, #myNav6, #myNav7, #myNav8, #myNav9").css("height", "0%");
 });
 
 // about me

@@ -39,15 +39,15 @@ new Chart("myChart1", {
 var xValues2 = [
     "C",
     "JAVA",
+    "Oops",
     "DSA",
+    "SpringBoot",
     "HTML",
     "CSS",
     "JS",
-    "Jquery",
-    "NodeJS",
-    "ReactJS",
+    "MySQL"
 ];
-var yValues2 = [7, 7, 6, 9, 6, 7, 5, 5, 0];
+var yValues2 = [7, 8, 8, 7, 6, 8, 7, 6, 6];
 var barColors2 = [
     "#ff0000",
     "#ffa500",
